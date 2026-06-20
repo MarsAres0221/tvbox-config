@@ -27,6 +27,14 @@
     {
       "url": "https://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌",
       "name": "🌟欧歌（多仓）🌟"
+    },
+    {
+      "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
+      "name": "🌟noimank（多仓）🌟"
+    },
+    {
+      "url": "https://github.catvod.com/https://raw.githubusercontent.com/tushen6/Tomorrow/master/lmw.json",
+      "name": "🌟tushen6（多仓）🌟"
     }
   ]
 }

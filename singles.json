@@ -1,28 +1,32 @@
 {
   "urls": [
     {
-      "url": "http://肥猫.live",
-      "name": "🌟肥猫（单仓）🌟"
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/fty.json",
+      "name": "🌟饭太硬（单仓）🌟"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json",
+      "name": "🌟潇洒（单仓）🌟"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "name": "🌟qist自用（单仓）🌟"
     },
     {
       "url": "http://home.jundie.top:81/top98.json",
-      "name": "🌟俊佬（单仓）🌟"
+      "name": "🌟俊于（单仓）🌟"
     },
     {
-      "url": "https://agit.ai/leevi/PiG/raw/branch/master/jsm.json",
-      "name": "🌟PG（单仓）🌟"
+      "url": "https://8815.kstore.vip/tvbox/wmz",
+      "name": "🌟网络接口（单仓）🌟"
     },
     {
-      "url": "https://dxawi.github.io/0/0.json",
-      "name": "🌟dxawi（单仓）🌟"
+      "url": "https://9280.kstore.vip/newwex.json",
+      "name": "🌟王二小（单仓）🌟"
     },
     {
-      "url": "https://wds.ecsxs.com/230989.json",
-      "name": "🌟春莹（单仓）🌟"
-    },
-    {
-      "url": "https://9xi4o.tk/tvbox.json",
-      "name": "盐枭（单仓）🌟"
+      "url": "https://github.catvod.com/https://raw.githubusercontent.com/tushen6/Tomorrow/master/tvbox.json",
+      "name": "🌟tushen6（单仓）🌟"
     }
   ]
 }
