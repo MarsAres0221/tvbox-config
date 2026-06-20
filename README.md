@@ -32,4 +32,12 @@ https://cdn.jsdelivr.net/gh/MarsAres0221/tvbox-config@master/singles.json
 
 脚本会验证 JSON、推送到 GitHub remote `github`，并刷新 jsDelivr 缓存。
 
+如果需要先做源质量预筛，运行：
+
+```powershell
+.\weekly-update.ps1
+```
+
+脚本会从当前 `DC.json` / `singles.json` 展开候选入口，检查配置结构、站点数量和 spider 可访问性，并生成本地 `weekly-report.json` / `discovered-sources.json`。报告文件不会提交入库。
+
 注意：Gitee raw 已被限制，不再作为最终配置地址。
