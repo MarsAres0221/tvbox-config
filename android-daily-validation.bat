@@ -21,7 +21,7 @@ echo =================================================
 REM Record log file timestamp before running PowerShell
 for %%F in (".\android-daily-validation.log") do set BEFORE_SIZE=%%~zF
 
-powershell -ExecutionPolicy Bypass -File ".\android-line-validation.ps1" -UseLocalConfig -NotificationSuffix "_daily" >> ".\android-daily-validation.log" 2>&1
+powershell -ExecutionPolicy Bypass -File ".\android-line-validation.ps1" -NotificationSuffix "_daily" >> ".\android-daily-validation.log" 2>&1
 set PS_EXIT=%ERRORLEVEL%
 
 REM Verify PowerShell actually wrote to the log
