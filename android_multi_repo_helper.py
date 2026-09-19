@@ -117,22 +117,21 @@ def delete_all_lines(d):
 
 
 def add_line(d, display_name, url):
-    d.click(*COORDS["name"])
-    time.sleep(1)
-    d.clear_text()
+    # 输入名称：使用 setText 绕过输入法
+    name_field = d(className="android.widget.EditText", instance=0)
+    name_field.click()
     time.sleep(0.5)
-    d.send_keys(display_name)
-    time.sleep(1)
-
-    d.click(*COORDS["url"])
-    time.sleep(1)
-    d.clear_text()
+    name_field.set_text(display_name)
     time.sleep(0.5)
-    d.send_keys(url)
-    time.sleep(1)
 
-    field = d(className="android.widget.EditText", instance=1)
-    typed_url = field.get_text() if field.exists else ""
+    # 输入 URL：使用 setText 绕过输入法
+    url_field = d(className="android.widget.EditText", instance=1)
+    url_field.click()
+    time.sleep(0.5)
+    url_field.set_text(url)
+    time.sleep(0.5)
+
+    typed_url = url_field.get_text() if url_field.exists else ""
     if typed_url != url:
         return False, f"URL 输入不完整 ({len(typed_url)}/{len(url)})"
 
