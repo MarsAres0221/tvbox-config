@@ -1,18 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/fty.json",
-      "name": "🌟饭太硬（单仓）🌟"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json",
-      "name": "🌟潇洒（单仓）🌟"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
-      "name": "🌟qist自用（单仓）🌟"
-    },
-    {
       "url": "http://home.jundie.top:81/top98.json",
       "name": "🌟俊于（单仓）🌟"
     },
@@ -25,8 +13,28 @@
       "name": "🌟王二小（单仓）🌟"
     },
     {
-      "url": "https://github.catvod.com/https://raw.githubusercontent.com/tushen6/Tomorrow/master/tvbox.json",
-      "name": "🌟tushen6（单仓）🌟"
+      "url": "http://fty.xxooo.cf/tv",
+      "name": "🌟饭太硬fty🌟"
+    },
+    {
+      "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
+      "name": "🌟王二小🌟"
+    },
+    {
+      "url": "https://ztha.top/TVBox/thdjk.json",
+      "name": "🌟挺好分享🌟"
+    },
+    {
+      "url": "http://www.xn--sss604efuw.net/tv",
+      "name": "🌟饭太硬net🌟"
+    },
+    {
+      "url": "http://fty.888484.xyz/tv",
+      "name": "🌟饭太硬备用1🌟"
+    },
+    {
+      "url": "http://fty.333232.xyz/tv",
+      "name": "🌟饭太硬备用2🌟"
     }
   ]
 }
