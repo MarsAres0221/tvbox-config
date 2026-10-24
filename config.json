@@ -3,9 +3,22 @@
   "spider": "",
   "lives": [
     {
-      "name": "直播源",
-      "url": "",
-      "type": 0
+      "name": "央视",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/MarsAres0221/tvbox-config@master/live/cctv.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    },
+    {
+      "name": "卫视",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/MarsAres0221/tvbox-config@master/live/weishi.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    },
+    {
+      "name": "浙江本地",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/MarsAres0221/tvbox-config@master/live/zhejiang.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
     }
   ],
   "sites": [],
