@@ -79,6 +79,10 @@
     {
       "name": "★qist-9918★",
       "url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/9918.json"
+    },
+    {
+      "name": "★qist-fty★",
+      "url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/fty.json"
     }
   ]
 }
